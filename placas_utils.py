@@ -1,8 +1,3 @@
-"""
-placas_utils.py — Funções compartilhadas da Aula 03
-Computação Gráfica — Prof. Petros Barreto
-"""
-
 import os
 import cv2
 import numpy as np
@@ -114,7 +109,6 @@ def encontrar_candidatos_placa(img_bgr, debug=True):
         print(f"Debug salvo: {path}")
 
     return candidatos
-
 
 # ─────────────────────────────────────────────────────────────
 # Extração e correção de perspectiva

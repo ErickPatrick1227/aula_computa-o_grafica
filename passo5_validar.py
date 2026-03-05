@@ -11,8 +11,9 @@ placas_teste = [
     "ABC 1234",   # com espaço (deve ser corrigido)
     "BRA2E2",     # incompleto
     "BRAZE23",    # 4 letras (inválido)
-    "0BC1234",    # OCR confundiu O→0 (deve corrigir)
-    "BRA2E23\n",  # com newline do OCR
+    "0BC1234",
+    "ERI5K26",    # OCR confundiu O→0 (deve corrigir)
+    "BRA2E23\n"  # com newline do OCR
 ]
 
 print("="*50)

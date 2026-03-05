@@ -65,7 +65,6 @@ def processar_lote(pasta_imagens, saida_json=None):
 
     return registros
 
-
 # ── Criar pasta de teste com placas sintéticas ────────────────
 placas_teste = ["ABC1234", "BRA2E23", "XYZ9W88", "DEF5678", "GHI3J45"]
 for placa in placas_teste:
