@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 from placas_utils import criar_placa_sintetica, pre_processar, SAIDA_DIR
 
 # ── Gerar e salvar a placa ────────────────────────────────────
-placa = criar_placa_sintetica("BRA2E23")
-PLACA_PATH = os.path.join(SAIDA_DIR, "placa_teste.png")
+placa = criar_placa_sintetica("ERI5K26")
+PLACA_PATH = os.path.join(SAIDA_DIR, "placa_ERI5K26.png")
 cv2.imwrite(PLACA_PATH, placa)
 print(f"Placa criada: {PLACA_PATH}")
 
