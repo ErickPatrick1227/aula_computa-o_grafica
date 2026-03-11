@@ -5,7 +5,11 @@ Aula 03 — Análise de Placas de Carros com OpenCV
 
 import os
 import cv2
+import pytesseract
 from placas_utils import criar_placa_sintetica, ocr_tesseract, ocr_easyocr, SAIDA_DIR
+
+
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Pichau\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'  # Ajuste o caminho conforme necessário
 
 img_placa = cv2.imread(os.path.join(SAIDA_DIR, "placa_roi_simples.png"))
 

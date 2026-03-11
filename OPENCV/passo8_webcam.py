@@ -19,6 +19,7 @@ import re
 
 from placas_utils import validar_placa
 
+import cv2
 
 def detectar_ao_vivo(fonte=0, largura=1280, altura=720):
     """
